@@ -1,1 +1,1 @@
-This is a Chrome extension to replace the facebook care icon with Kirby. 
+A Chrome extension to replace the facebook care icon with Kirby. 
