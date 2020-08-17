@@ -1,0 +1,23 @@
+{
+"manifest_version": 2,
+    "name": "Kirby Don't Care",
+    "description": "Replaces the Facebook care react with Kirby",
+    "version": "1.0",
+    "icons": {
+        "16": "assets/images/icon16.png",
+        "32": "assets/images/icon32.png",
+        "48": "assets/images/icon48.png",
+        "128": "assets/images/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
